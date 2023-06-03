@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="1" name="testRunner.TestRun" time="95.642" errors="2" skipped="3">
+  <properties>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.4+11-LTS-179"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\samsu\eclipse-workspace\nopCommerceV001_Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\samsu\eclipse-workspace\nopCommerceV001_Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4+11-LTS-179"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\samsu\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\samsu\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15308044184968339634.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.4\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-17.0.4\bin\;C:\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\samsu\AppData\Local\Microsoft\WindowsApps;;C:\Users\samsu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samsu\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\samsu"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="samsu"/>
+    <property name="java.class.path" value="C:\Users\samsu\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.4"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\samsu\eclipse-workspace\nopCommerceV001_Cucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Customer" name="Add a New Customer" time="33.676">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Email&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15af850cfb608bad7b27179d892422d0
+*** Element info: {Using=id, value=Email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Email&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15af850cfb608bad7b27179d892422d0
+*** Element info: {Using=id, value=Email}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.clear(Unknown Source)
+	at pageObjects.LoginPage.setUsrEmailId(LoginPage.java:30)
+	at stepDefinitions.steps.user_enters_Email_as_and_password_as(steps.java:31)
+	at ✽.User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot;(file:Features/Customers.feature:6)
+</error>
+    <system-out>Feature: Customer
+
+  Scenario: Add a New Customer                                                              # Features/Customers.feature:3
+    Given User launch chrome browser                                                        # steps.user_launch_chrome_browser()
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;                           # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot;                  # steps.user_enters_Email_as_and_password_as(String,String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#Email&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 15af850cfb608bad7b27179d892422d0
+*** Element info: {Using=id, value=Email}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.clear(Unknown Source)
+	at pageObjects.LoginPage.setUsrEmailId(LoginPage.java:30)
+	at stepDefinitions.steps.user_enters_Email_as_and_password_as(steps.java:31)
+	at ?.User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot;(file:Features/Customers.feature:6)
+
+    And Click on Login                                                                      # steps.click_on_Login()
+    Then User can view Dashboard                                                            # steps.user_can_view_Dashboard()
+    When User clicks on customers menu                                                      # steps.user_clicks_on_customers_menu()
+    And User clicks on customers menu items                                                 # steps.user_clicks_on_customers_menu_items()
+    And User clicks on Add new button                                                       # steps.user_clicks_on_Add_new_button()
+    Then User can view Add a new Customer page                                              # steps.user_can_view_Add_a_new_Customer_page()
+    When User enter customer info                                                           # steps.user_enter_customer_info()
+    And Click on Save button                                                                # steps.click_on_Save_button()
+    Then User can view confirmation message &quot;The new customer has been added successfully.&quot; # steps.user_can_view_confirmation_message(String)
+    And Close browser                                                                       # steps.close_browser()
+</system-out>
+    <system-err>Aug 30, 2022 6:08:53 PM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+WARNING: Use deprecated reflections to load ObjectFactory.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 47301
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2022 6:08:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Customer" name="Search Customer by EmailID" time="38.571">
+    <failure message="expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com | 522: Connection timed out]&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com | 522: Connection timed out]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.steps.user_can_view_Dashboard(steps.java:69)
+	at ✽.User can view Dashboard(file:Features/Customers.feature:23)
+</failure>
+    <system-out>
+  Scenario: Search Customer by EmailID                                     # Features/Customers.feature:18
+    Given User launch chrome browser                                       # steps.user_launch_chrome_browser()
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;          # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot; # steps.user_enters_Email_as_and_password_as(String,String)
+    And Click on Login                                                     # steps.click_on_Login()
+    Then User can view Dashboard                                           # steps.user_can_view_Dashboard()
+      junit.framework.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administration]&gt; but was:&lt;[admin-demo.nopcommerce.com | 522: Connection timed out]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.steps.user_can_view_Dashboard(steps.java:69)
+	at ?.User can view Dashboard(file:Features/Customers.feature:23)
+
+    When User clicks on customers menu                                     # steps.user_clicks_on_customers_menu()
+    And User clicks on customers menu items                                # steps.user_clicks_on_customers_menu_items()
+    And Enter EMail                                                        # steps.enter_EMail()
+    When Click on search button                                            # steps.click_on_search_button()
+    Then User should found Emailin the search table                        # steps.user_should_found_Emailin_the_search_table()
+    And Close browser                                                      # steps.close_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 5871
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2022 6:09:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Customer" name="Search Customer by Name" time="23.364">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e21efa0210971cc86a2b947c10311e4d
+*** Element info: {Using=xpath, value=//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e21efa0210971cc86a2b947c10311e4d
+*** Element info: {Using=xpath, value=//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:261)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.findElement(Unknown Source)
+	at pageObjects.SearchCustomer.searchCutomerByName(SearchCustomer.java:119)
+	at stepDefinitions.steps.user_should_found_Name_in_the_search_table(steps.java:158)
+	at ✽.User should found Name in the search table(file:Features/Customers.feature:43)
+</error>
+    <system-out>
+  Scenario: Search Customer by Name                                        # Features/Customers.feature:32
+    Given User launch chrome browser                                       # steps.user_launch_chrome_browser()
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;          # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot; # steps.user_enters_Email_as_and_password_as(String,String)
+    And Click on Login                                                     # steps.click_on_Login()
+    Then User can view Dashboard                                           # steps.user_can_view_Dashboard()
+    When User clicks on customers menu                                     # steps.user_clicks_on_customers_menu()
+    And User clicks on customers menu items                                # steps.user_clicks_on_customers_menu_items()
+    And Enter customer FirstName                                           # steps.enter_customer_FirstName()
+    And Enter customer LastName                                            # steps.enter_customer_LastName()
+    When Click on search button                                            # steps.click_on_search_button()
+    Then User should found Name in the search table                        # steps.user_should_found_Name_in_the_search_table()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALAMFALEELA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\samsu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e21efa0210971cc86a2b947c10311e4d
+*** Element info: {Using=xpath, value=//table[@id=&apos;customers-grid&apos;]//tbody/tr[6]/td[3]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:185)
+	at org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:261)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.findElement(Unknown Source)
+	at pageObjects.SearchCustomer.searchCutomerByName(SearchCustomer.java:119)
+	at stepDefinitions.steps.user_should_found_Name_in_the_search_table(steps.java:158)
+	at ?.User should found Name in the search table(file:Features/Customers.feature:43)
+
+    And Close browser                                                      # steps.close_browser()
+</system-out>
+    <system-err>Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 26654
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 30, 2022 6:10:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Login" name="Successful Login with Valid Credentials" time="0.011">
+    <skipped/>
+    <system-out>
+Feature: Login
+
+  Scenario: Successful Login with Valid Credentials                        # Features/Login.feature:3
+    Given User launch chrome broser                                        # null
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;          # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot; # steps.user_enters_Email_as_and_password_as(String,String)
+    And Click on Login                                                     # steps.click_on_Login()
+    Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;     # steps.page_Title_should_be(String)
+    When User click on logout link                                         # steps.user_click_on_logout_link()
+    Then Page Title should be &quot;Your store. Login&quot;                          # steps.page_Title_should_be(String)
+    And Close browser                                                      # steps.close_browser()
+</system-out>
+  </testcase>
+  <testcase classname="Login" name="Login Data Driven" time="0.013">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Login Data Driven # Features/Login.feature:13
+    Given User launch chrome broser
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;
+    And User enters Email as &quot;&lt;email&gt;&quot; and password as &quot;&lt;password&gt;&quot;
+    And Click on Login
+    Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;
+    When User click on logout link
+    Then Page Title should be &quot;Your store. Login&quot;
+    And Close browser
+
+    Examples: 
+
+  Scenario Outline: Login Data Driven                                      # Features/Login.feature:25
+    Given User launch chrome broser                                        # null
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;          # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin&quot; # steps.user_enters_Email_as_and_password_as(String,String)
+    And Click on Login                                                     # steps.click_on_Login()
+    Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;     # steps.page_Title_should_be(String)
+    When User click on logout link                                         # steps.user_click_on_logout_link()
+    Then Page Title should be &quot;Your store. Login&quot;                          # steps.page_Title_should_be(String)
+    And Close browser                                                      # steps.close_browser()
+</system-out>
+  </testcase>
+  <testcase classname="Login" name="Login Data Driven" time="0.007">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Login Data Driven                                         # Features/Login.feature:26
+    Given User launch chrome broser                                           # null
+    When User opens URL &quot;http://admin-demo.nopcommerce.com/login&quot;             # steps.user_opens_URL(String)
+    And User enters Email as &quot;admin@yourstore.com&quot; and password as &quot;admin123&quot; # steps.user_enters_Email_as_and_password_as(String,String)
+    And Click on Login                                                        # steps.click_on_Login()
+    Then Page Title should be &quot;Dashboard / nopCommerce administration&quot;        # steps.page_Title_should_be(String)
+    When User click on logout link                                            # steps.user_click_on_logout_link()
+    Then Page Title should be &quot;Your store. Login&quot;                             # steps.page_Title_should_be(String)
+    And Close browser                                                         # steps.close_browser()
+</system-out>
+  </testcase>
+</testsuite>
